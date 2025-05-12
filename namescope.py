@@ -9,7 +9,7 @@ import seaborn as sns
 sns.set_style("whitegrid")
 
 # Use absolute path for data folder
-DATA_FOLDER = "/Users/suki-2/names/"
+DATA_FOLDER = "names"
 
 @st.cache_data(show_spinner=False)
 def load_name_data():
